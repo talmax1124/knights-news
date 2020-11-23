@@ -1,6 +1,6 @@
 {
   "name": "knights-news",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "News Theme Package For My News Websites",
   "main": "/sass/article.scss",
   "scripts": {
