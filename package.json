@@ -1,0 +1,17 @@
+{
+  "name": "knights-news",
+  "version": "1.0.0",
+  "description": "News Theme Package For My News Websites",
+  "main": "/sass/article.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/article.scss css/article.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "Carlos D",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

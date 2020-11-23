@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styling/docx.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>News Theme | Carlos</title>
+    <link rel="stylesheet" href="/sass/article.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="/index.html">
+                        News Theme
+                    </a>
+                </li>
+                <li>
+                    <a href="/installation.html">Installation</a>
+                </li>
+                <li>
+                    <a href="#">Documentation</a>
+                </li>
+
+                <li>
+                    <a href="/fonts.html">Fonts</a>
+                </li>
+
+                <li>
+                    <a href="/example.html">Example</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#menu-toggle" id="menu-toggle" class="toggle"><i class="fas fa-bars"></i></a>
+
+                        <h1>Documentation</h1>
+                        <p>Documentation for this package is very easy. You can visit the example page for a example of what just some of the few components look like.</p>
+
+                        <br>
+
+                        <h2>Components</h2>
+                        <br>
+
+                        <h2>Quotes:</h2>
+
+                        <div class="quote-tomato">
+                            <h3>Class: quote-tomato</h3>
+                        </div>
+
+                        <div class="quote-black">
+                            <h3>Class: quote-black</h3>
+                        </div>
+
+                        <div class="quote-green">
+                            <h3>Class: quote-green</h3>
+                        </div>
+
+                        <div class="quote-grey">
+                            <h3>Class: quote-grey or gray</h3>
+                        </div>
+
+                        <br>
+                        <h2>Seperator</h2>
+                        <h3>Use class="seperator" in a div to seperate the spacing from nav and top content:</h3>
+                        <h4>In emmet in VS Code, you can use type .seperator and it will generate a div which is how this functions</h4>
+<br>
+<h2>Hr / Seperator</h2>
+                        <h3>Use an hr to make a spacing with a line. Example:</h3>
+                        <hr>
+
+
+                        <h2>Spaced Container</h2>
+                        <h3>Makes a spacing left and right for writing your articles</h3>
+                        <p>For sizes greater than 900px, the container is 70% or greater. Make sure to wrap up the whole entire article in the .container or a div with the class of container.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+
+</body>
+
+</html>
